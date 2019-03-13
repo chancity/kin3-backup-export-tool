@@ -88,15 +88,4 @@ namespace backup_example
             }
         }
     }
-
-    class GetKeypairResults
-    {
-        public string passphrase { get; }
-        public KeyPair KeyPair { get; }
-        public GetKeypairResults(string passphrase, KeyPair keyPair)
-        {
-            this.passphrase = passphrase;
-            KeyPair = keyPair;
-        }
-    }
 }
